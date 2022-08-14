@@ -1,0 +1,77 @@
+body{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3em;
+    font-family: 'Roboto Mono', monospace;
+}
+.calculadora_gatinho{
+    width: 400px;
+    background-image: url('/Imagens/background_calculadora.jpeg');
+    background-size: cover;
+    height: 590px;
+}
+#calculadora{
+    width: 270px;
+    height: auto;
+    margin: 120px auto 10px auto;
+    text-align: right;
+    background-color: #F49BCB;
+    color: #ffffff;
+}
+#container_botoes{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    width: 270px;
+    margin: 30px auto auto auto;
+    gap: 15px;
+}
+button{
+    height: 35px;
+    text-align: center;
+    padding: auto;
+    background-color: #ffffff;
+}
+.botao_gatinho{
+    background-image: url('/Imagens/botao_gatinho.jpeg') ; 
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none ;
+    color: #ffffff;
+    font-size: 23px;
+    }
+.botao_feijao{
+    background-image: url('/Imagens/botao_feijao.jpeg') ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    color: #F49BCB;
+    font-size: 20px;
+}
+.botao_operacao{
+    background-color: #ffffff;
+    border: 3px solid #F49BCB;
+    color:#F49BCB;
+    font-weight: 700;
+    border-radius: 50%;
+    -webkit-box-shadow: -3px 2px 0px 4px rgba(244,155,203,0.62); 
+    box-shadow: -3px 2px 0px 4px rgba(244,155,203,0.62);
+    font-size: 30px;
+}
+.numero{
+    background-color: #F49BCB;
+    border: 3px solid #F49BCB;
+    color: #ffffff;
+    font-weight: 700;
+    border-radius: 5px;
+    -webkit-box-shadow: -3px 2px 0px 4px rgba(244,155,203,0.62); 
+    box-shadow: -3px 2px 0px 4px rgba(244,155,203,0.62);
+    font-size: 30px;
+}
+.rodape{
+    margin-top: 40px  ;
+}
